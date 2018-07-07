@@ -13,6 +13,6 @@ include 'Template.php';
 
 $template = new Template($name, $stuff);
 
-$template->render('template.tmpl');
+$template->render('template/template.tmpl');
 
 ?>
